@@ -7,7 +7,7 @@ We will accomplish this by:
 * adding alcohol consumption data  
       -normalize it based on country vs amount of tweets (take a percentage)  
       -alcohol vs negative tweets - correlation??  
-* *other things that are attributed to lower mental health:  
+* other things that are attributed to lower mental health:  
      -suicides  
      -substance abuse (opiod)  
      -crime  
