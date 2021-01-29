@@ -1,0 +1,152 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 1020px;
+    width: 480px;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 30px;
+    overflow-y: hidden;
+}
+
+section:hover{
+    overflow-y: scroll;
+}
+
+header{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.heading{
+    background-color: #f3ecec;
+    border-bottom: none;
+}
+
+img{
+    display:block;
+}
+
+.big{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+.small{
+    display:block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f3ecec;
+}
+
+.viz{
+    display:block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+main{
+    background:#f7f7f7;
+    min-height: 100px;
+}
+
+.main{
+    background:#f7f7f7;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    min-height: 100px;
+}
+
+.menu{
+    padding-top: 45px;
+    display: inline-block;
+    background: white;
+    padding: 0.5em;
+    display: flex;
+}
+
+.benu{
+    text-align: right;
+    padding-top: 8px;
+    padding-left: 60%;
+    display: inline-block;
+    background: white;
+    display: flex;
+}
+
+.buttons{
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f3ecec;
+    color: white;
+}
+
+.graphs{
+    flex: 1;
+    background: white;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* EDIT ALL THE HEADINGS SO THEY LOOK NICE*/
+h1, h2, h3, h4, h5{
+    color:#3E3049 !important;
+}
+
+.hospitals{
+    padding: 15px;
+}
+
+.hospital{
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.info{
+    flex: 1;
+}
+
+.title{
+    font-weight: bold;
+}
+.location{
+    color:#665E77;
+
+}
+.distance{
+    color:#665E77;        
+
+}
+.virtual{
+    color: #7358D4;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.directions{
+    display:block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}

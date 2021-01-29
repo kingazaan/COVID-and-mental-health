@@ -1,0 +1,11 @@
+Goal is to have an app that tells people where they can find help for mental helath, as well as statistics on mental health and other tools that shows the severity
+
+main page: a brief intro, company name, and links to things. These are:
+    1. visualizations
+        -heatmap of [variable] vs COVID sentiment 
+        -stats on different [variable] topics depending on what they click
+        -word cloud for neutral vs negative vs positive sentiment (tone)
+    2. in-depth stats per country (current covid data along with stuff like % community transmissions, # of tweets per country, )
+    3. Links to reach out to doctors and such, click a link and find mental health doctors near you (or online)
+        SUICID HOTLINE IN RED ON TOP
+    
