@@ -8,9 +8,19 @@ body{
 section{
     height: 1020px;
     width: 480px;
-    border: 1px;
-    border-color: gray;
-    border-style: solid;
+    border: 5px;
+    border-color: black;
+    border-style: inset;
+    border-radius: 30px;
+    overflow-y: hidden;
+}
+
+.landscape{
+    height: 480px;
+    width: 1020px;
+    border: 5px;
+    border-color: black;
+    border-style: inset;
     border-radius: 30px;
     overflow-y: hidden;
 }
@@ -25,8 +35,9 @@ header{
 }
 
 .heading{
-    background-color: #f3ecec;
+    background-color: rgba(236, 236, 236, 0.863);
     border-bottom: none;
+    padding-bottom: 25px;
 }
 
 img{
@@ -45,7 +56,7 @@ img{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background: #f3ecec;
+    background: rgba(236, 236, 236, 0.863);
 }
 
 .viz{
@@ -53,16 +64,17 @@ img{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
     background: white;
 }
 
 main{
-    background:#f7f7f7;
+    background:white;
     min-height: 100px;
 }
 
 .main{
-    background:#f7f7f7;
+    background:white;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     min-height: 100px;
@@ -89,7 +101,7 @@ main{
     flex: 1;
     border-radius: 10px;
     padding: 10px;
-    background: #f3ecec;
+    background: rgba(236, 236, 236, 0.863);
     color: white;
 }
 
@@ -98,11 +110,6 @@ main{
     background: white;
     color: white;
     margin-bottom: 40px;
-}
-
-/* EDIT ALL THE HEADINGS SO THEY LOOK NICE*/
-h1, h2, h3, h4, h5{
-    color:#3E3049 !important;
 }
 
 .hospitals{
@@ -116,13 +123,25 @@ h1, h2, h3, h4, h5{
     border-radius: 15px;
 }
 
+.news{
+    display: block;
+    background: white;
+    padding: 0px;
+    border-radius: 15px;
+}
+
 .info{
     flex: 1;
+}
+
+.news{
+    float: left;
 }
 
 .title{
     font-weight: bold;
 }
+
 .location{
     color:#665E77;
 
@@ -133,6 +152,23 @@ h1, h2, h3, h4, h5{
 }
 .virtual{
     color: #7358D4;
+}
+
+.article{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.description{
+    color: #3E3049;
+    font-size: 12px;
+}
+
+.time{
+    color: #3E3049;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -148,5 +184,21 @@ h1, h2, h3, h4, h5{
     padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.red{
+    text-align: center;
+    background: rgba(255, 0, 0, 0.486);
+    border-radius: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 0px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+/* EDIT ALL THE HEADINGS SO THEY LOOK NICE*/
+h1, h2, h3, h4, h5, h6{
+    color:#3E3049 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
