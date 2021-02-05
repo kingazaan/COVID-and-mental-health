@@ -82,10 +82,9 @@ main{
 
 .menu{
     padding-top: 45px;
-    display: inline-block;
+    display: flex;
     background: white;
     padding: 0.5em;
-    display: flex;
 }
 
 .benu{
